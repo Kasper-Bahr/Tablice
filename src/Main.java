@@ -18,5 +18,16 @@ public class Main {
             System.out.println("tab {" + i + "} = " + tab1[i]);
 
 
+        boolean[] tab2 = new boolean[20];
+        for (int i = 0; i < 20; i++ ){
+            if (i % 2 == 0){
+                tab2[i] = true;
+            } else {
+                tab2[i] = false;
+            }
+        }
+        for (int i = 0; i < 20; i++){
+            System.out.println("tab {" + i + "} = " + tab2[i]);
+        }
     }
 }
